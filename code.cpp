@@ -1,7 +1,6 @@
 #include <iostream>
 #include "easy.h"
 using namespace std;
-
 //1
 void itc_name(){
 cout << "Marina";
@@ -18,26 +17,24 @@ cout << " Roslova Necolaevna";
 int itc_abs(int ch){
 int risult;
 if(ch >= 0){
-    return ch;
+ return ch;
 }
 else{
     risult = ch * -1;
-    return risult;
+ return risult;
 }
-
 }
 
 //4
 double itc_fabs(double ch){
 double risult;
 if(ch >= 0){
-    return ch;
+ return ch;
 }
 else{
     risult = ch * -1;
-    return risult;
+ return risult;
 }
-
 }
 
 //5

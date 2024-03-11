@@ -40,7 +40,7 @@ else{
 //5
 int itc_revnbr(int ch){
 int a, b, c, risult;
-a = ch%10;
+a = ch % 10;
 ch = ch / 10;
 b = ch % 10;
 ch = ch / 10;
